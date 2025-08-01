@@ -1,0 +1,7 @@
+--- Relatório de Divergência ---
+
+Total de 1 divergências encontradas:
+--------------------------------------------------------------------------
+Código Local    Inscrição Estadual   Status Divergente    CNPJ              
+--------------------------------------------------------------------------
+367             1XXXX18XX            1                    9XXXX4780001XX    
