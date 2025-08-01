@@ -19,7 +19,7 @@ public class Main {
             var comparator = new StatusComparatorService(apiClient);
             var reportWriter = new ReportWriterService();
 
-            String filePath = "registros.txt";
+            String filePath = "src\\main\\resources\\registros.txt";
 
             List<LocalRecord> localRecords = fileReader.readRecordsFromFile(filePath);
 
@@ -34,11 +34,11 @@ public class Main {
 
             reportWriter.writeReportToConsole(divergences);
 
-            String reportPath = "relatorio_divergencias.txt";
+            String reportPath = "src\\main\\resources\\relatorio_divergencias.txt";
 
             reportWriter.writeReportToFile(divergences, reportPath);
 
-            String codesReportPath = "relatorio_codigos.txt";
+            String codesReportPath = "src\\main\\resources\\relatorio_codigos.txt";
 
             reportWriter.writeDivergentCodesToFile(divergences, codesReportPath);
 
